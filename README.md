@@ -4,7 +4,7 @@
 
 ![Healthcare analytics project cover](images/project-cover.png)
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black) ![Analytics](https://img.shields.io/badge/Focus-Healthcare%20Operations-176B87) ![Portfolio](https://img.shields.io/badge/Project-Portfolio-0D9488)
+![Power BI](images) ![Analytics](https://img.shields.io/badge/Focus-Healthcare%20Operations-176B87) ![Portfolio](https://img.shields.io/badge/Project-Portfolio-0D9488)
 
 > **Business question:** Where are patient demand, incomplete visits and unpaid claims creating operational pressure or financial exposure—and which areas should leaders prioritize?
 
@@ -82,16 +82,7 @@ The five source tables connect through IDs such as `PatientID`, `ProviderID`, `E
     ├── TECHNICAL_NOTES.md
     ├── KPI_DEFINITIONS.md
     ├── PORTFOLIO_COPY.md
-    └── PUBLICATION_CHECKLIST.md
 ```
 
-## Data privacy and reproducibility
 
-The original Excel file includes patient names and IDs. Public files in this package are intentionally aggregated; neither the identifiable workbook nor the original embedded Power BI model is published. The workbook can be held privately for permitted local reproduction. Review the [publication checklist](docs/PUBLICATION_CHECKLIST.md) before any public release.
 
-## About / contact
-
-**[YOUR NAME]** · Data Analyst | Power BI | Analytics & Storytelling  
-[LinkedIn URL] · [Portfolio URL] · [GitHub profile URL]
-
-*Portfolio case study based on a supplied healthcare analytics exercise; the dataset's provenance and any real-world deployment or business impact were not independently established.*
