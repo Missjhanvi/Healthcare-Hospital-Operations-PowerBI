@@ -4,7 +4,7 @@
 
 ![Healthcare analytics project cover](images/project-cover.png)
 
-![Power BI](images) ![Analytics](https://img.shields.io/badge/Focus-Healthcare%20Operations-176B87) ![Portfolio](https://img.shields.io/badge/Project-Portfolio-0D9488)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black) ![Analytics](https://img.shields.io/badge/Focus-Healthcare%20Operations-176B87) ![Portfolio](https://img.shields.io/badge/Project-Portfolio-0D9488)
 
 > **Business question:** Where are patient demand, incomplete visits and unpaid claims creating operational pressure or financial exposure—and which areas should leaders prioritize?
 
@@ -16,7 +16,35 @@ This end-to-end Power BI project explores how patient appointments, provider wor
 
 The analysis uses five source tables: **Patients (500 records), Providers (40), Encounters (1,200), Claims (1,200), Payments (1,200)**. Numbers shown below are recalculated from the provided workbook at full-dataset level and may differ from an individual Power BI view if slicers or measure definitions differ.
 
-## Dashboard & presentation
+## 📊 Power BI dashboard gallery
+
+Explore selected pages from my six-page Healthcare Operations & Revenue Power BI report. The screenshots highlight operational demand, revenue-cycle exposure, and how both areas connect.
+
+### 🏥 Hospital operations overview
+
+![Power BI hospital operations dashboard](images/healthcare%20operation%20overview.png)
+
+*Encounter volume, appointment outcomes, and hospital operational performance.*
+
+### 💰 Revenue overview
+
+![Power BI healthcare revenue dashboard](images/revenue%20overview.png)
+
+*Billing, payments, outstanding balances, and financial-risk monitoring.*
+
+### 🔗 Operations and financial connection
+
+![Power BI operational versus financial analysis](images/operational%20vs%20financial%20connection%20.png)
+
+*Connecting patient access and hospital operations to revenue-cycle performance.*
+
+### 🖼️ Explore the complete screenshot collection
+
+**[➡️ View all 7 dashboard and project images](images/)** — includes additional operations and revenue views.
+
+**Note:** These are screenshots of the Power BI report, not a live interactive dashboard. The original PBIX is intentionally not distributed publicly because it contains an embedded patient-level data model.
+
+## 📑 Presentation & supporting documentation
 
 **[View executive presentation](docs/Healthcare_Operations_Revenue_Executive_Presentation.pptx)** · **[Read the project case study](docs/CASE_STUDY.md)** · **[Explore aggregated department-level data](public_data/department_summary.csv)**
 
@@ -72,7 +100,13 @@ The five source tables connect through IDs such as `PatientID`, `ProviderID`, `E
 .
 ├── README.md
 ├── images/
-│   └── project-cover.png
+│   ├── project-cover.png
+│   ├── healthcare operation overview.png
+│   ├── healthcare operation overview 2.png
+│   ├── healthcare operation overview 3.png
+│   ├── revenue overview.png
+│   ├── revenue overview 2.png
+│   └── operational vs financial connection .png
 ├── public_data/
 │   └── department_summary.csv  # aggregated, no patient rows
 └── docs/
@@ -82,7 +116,16 @@ The five source tables connect through IDs such as `PatientID`, `ProviderID`, `E
     ├── TECHNICAL_NOTES.md
     ├── KPI_DEFINITIONS.md
     ├── PORTFOLIO_COPY.md
+    └── PUBLICATION_CHECKLIST.md
 ```
 
+## Data privacy and reproducibility
 
+The original Excel file includes patient names and IDs. Public files in this package are intentionally aggregated; neither the identifiable workbook nor the original embedded Power BI model is published. The workbook can be held privately for permitted local reproduction. Review the [publication checklist](docs/PUBLICATION_CHECKLIST.md) before any public release.
 
+## About / contact
+
+**[YOUR NAME]** · Data Analyst | Power BI | Analytics & Storytelling  
+[LinkedIn URL] · [Portfolio URL] · [GitHub profile URL]
+
+*Portfolio case study based on a supplied healthcare analytics exercise; the dataset's provenance and any real-world deployment or business impact were not independently established.*
