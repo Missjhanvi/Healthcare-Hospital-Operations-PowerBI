@@ -4,7 +4,6 @@
 
 ![Healthcare analytics project cover](images/project-cover.png)
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black) ![Analytics](https://img.shields.io/badge/Focus-Healthcare%20Operations-176B87) ![Portfolio](https://img.shields.io/badge/Project-Portfolio-0D9488)
 
 > **Business question:** Where are patient demand, incomplete visits and unpaid claims creating operational pressure or financial exposure—and which areas should leaders prioritize?
 
