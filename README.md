@@ -46,7 +46,7 @@ Explore selected pages from my six-page Healthcare Operations & Revenue Power BI
 
 ## 📑 Presentation & supporting documentation
 
-**[View executive presentation](docs/Healthcare_Operations_Revenue_Executive_Presentation.pptx)** · **[Read the project case study](docs/CASE_STUDY.md)** · **[Explore aggregated department-level data](public_data/department_summary.csv)**
+**[View executive presentation](docs/Healthcare_Operations_Revenue_Executive_Presentation.pptx)** · **[Read the project case study](docs/CASE_STUDY.md)** · 
 
 > **Power BI file:** The original `.pbix` embeds a healthcare data model based on a source workbook containing patient names and identifiers. It is **not included** in this public-ready repository. Share a privacy-reviewed, sanitized PBIX or a safe public Power BI link only after removing sensitive information from both the source and embedded model.
 
@@ -115,17 +115,11 @@ The five source tables connect through IDs such as `PatientID`, `ProviderID`, `E
     ├── DATA_DICTIONARY.md
     ├── TECHNICAL_NOTES.md
     ├── KPI_DEFINITIONS.md
-    ├── PORTFOLIO_COPY.md
-    └── PUBLICATION_CHECKLIST.md
+    
+   
 ```
 
-## Data privacy and reproducibility
 
-The original Excel file includes patient names and IDs. Public files in this package are intentionally aggregated; neither the identifiable workbook nor the original embedded Power BI model is published. The workbook can be held privately for permitted local reproduction. Review the [publication checklist](docs/PUBLICATION_CHECKLIST.md) before any public release.
 
-## About / contact
 
-**[YOUR NAME]** · Data Analyst | Power BI | Analytics & Storytelling  
-[LinkedIn URL] · [Portfolio URL] · [GitHub profile URL]
 
-*Portfolio case study based on a supplied healthcare analytics exercise; the dataset's provenance and any real-world deployment or business impact were not independently established.*
